@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend-rhi_uf.iml" filepath="$PROJECT_DIR$/.idea/backend-rhi_uf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rhi/rhi.iml" filepath="$PROJECT_DIR$/rhi/rhi.iml" />
+    </modules>
+  </component>
+</project>
