@@ -1,4 +1,4 @@
-package rhi.rhiuf.dashboard.bio;
+package rhi.rhiuf;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -11,9 +11,9 @@ import java.util.Map;
 @Data
 @SuperBuilder
 @JsonInclude
-public class ResponseBio {
-    protected LocalDateTime bioTimeStamp;
-    protected HttpStatus bioStatus;
-    protected  String bioMessage;
-    protected Map<?,?> bioData;
+public class ApiResponse {
+    protected LocalDateTime apiTimestamp;
+    protected HttpStatus apiStatus;
+    protected  String apiMessage;
+    protected Map<?,?> apiData;
 }
