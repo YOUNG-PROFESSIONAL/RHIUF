@@ -16,4 +16,6 @@ public class Bio {
     private String bioTitle;
     private CategorieBio bioCat;
     private String bioDesc;
+    private Boolean bioEnabled;
+
 }

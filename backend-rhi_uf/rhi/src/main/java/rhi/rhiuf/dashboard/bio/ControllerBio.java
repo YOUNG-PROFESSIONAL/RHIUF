@@ -1,5 +1,6 @@
 package rhi.rhiuf.dashboard.bio;
 
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.Map;
 
@@ -27,7 +28,8 @@ public class ControllerBio {
 
     //GET ALL HOME DATA
     @GetMapping
-    public ResponseEntity<ApiResponse> getAllBio(){
+    public ResponseEntity<ApiResponse> getAllBio() throws IOException {
+
         return ResponseEntity.ok(
                 ApiResponse.builder()
                         .apiTimestamp(LocalDateTime.now())
